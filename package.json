@@ -1,0 +1,41 @@
+{
+	"name": "thelongnight",
+	"displayName": "The Long Night Theme",
+	"description": "Matt Ferderer's Preferred Modified version of John Papa's Winter is Coming Theme",
+	"icon": "images/thelongnight-icon.png",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mattferderer/vscode-thelongnight.git"
+	},
+	"galleryBanner": {
+		"color": "#373436",
+		"theme": "dark"
+	},
+	"version": "0.1.1",
+	"publisher": "mattferderer",
+	"keywords": [
+		"Theme",
+		"Dark Theme"
+	],
+	"scripts": {
+		"list": "vsce ls",
+		"publish": "vsce publish"
+	},
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Themes",
+		"Other"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "The Long Night",
+				"uiTheme": "vs-dark",
+				"path": "./themes/thelongnight-theme.json"
+			}
+		]
+	}
+}
